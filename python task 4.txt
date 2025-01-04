@@ -1,0 +1,31 @@
+
+                                                  BESANT TECHNOLOGY - PYTHON (BATCH-373)
+				TASK - 4
+
+NAME             : S.Kiruthika
+DEGREE        : B.Sc Computer Science
+COLLEGE     : Dr. Mgr Government Arts and Science College for Women
+PASSED OUT: 2024
+
+
+1. Printing the Stars using for loop:
+
+for i in range(1,6):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()
+for i in range(1,5):
+    for j in range(i+1,6):
+        print("*",end=" ")
+    print()
+
+Output:
+*
+* * 
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*

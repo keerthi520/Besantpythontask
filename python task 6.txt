@@ -1,0 +1,41 @@
+                                              BESANT TECHNOLOGY - PYTHON (BATCH-373)
+				TASK - 6
+
+NAME             : S.Kiruthika
+DEGREE        : B.Sc Computer Science
+COLLEGE     : Dr. Mgr Government Arts and Science College for Women
+PASSED OUT: 2024
+
+1) Cosmetic Bill Program:
+
+cosmetic=["mirror","toner","lotion","sponge","makeup kit","cleanser","face powder"]
+n=int(input("Enter the total number of cosmetic items:"))
+for x in range(n):
+    cn=input("Enter the Cosmetic name:")
+    if (cn in cosmetic):
+        Name=input("Enter your name:")
+        Rate=int(input("Enter the Rate:"))
+        f1=open("Bill.txt","w")
+        f1.write("***WELCOM TO SMK COSMETIC SHOP***\n")
+        f1.write(f"Name is:{Name}\n")
+        f1.write(f"Cosmetic Name is:{cn}\n")
+        f1.write(f"Rate is:{Rate}\n")
+        print("Your Bill is Generated !!!")
+        f1=open("Bill.txt","r")
+        print(f1.read())
+        f1.close()
+    else:
+        print("Invalid Cosmetic Name")
+
+
+Output:
+Enter the total number of cosmetic items:1
+Enter the Cosmetic name:makeup kit 
+Enter your name:keerthi
+Enter the Rate:5000
+Your Bill is Generated !!!
+***WELCOME TO SMK COSMETIC SHOP***
+Name is:keerthi
+Cosmetic Name is:makeup kit      
+Rate is:5000
+---------------------------------------------------------------------------------

@@ -1,0 +1,109 @@
+
+          BESANT TECHNOLOGY - PYTHON (BATCH-373)
+				TASK - 1
+
+NAME      : S.Kiruthika
+DEGREE    : B.Sc Computer Science
+COLLEGE   : Dr.Mgr Government Arts and Science College for Women
+PASSEDOUT : 2024
+
+1) Find the sum of five subject mark:
+
+T=int(input("Enter the tamil mark:"))
+E=int(input("Enter the english mark:"))
+M=int(input("Enter the maths mark:"))
+S=int(input("Enter the science mark:"))
+C=int(input("Enter the computer mark:"))
+print("sum of all five subject marks ",(T+E+M+S+C))
+
+Output:
+Enter the tamil mark:90
+Enter the english mark:84
+Enter the maths mark:87
+Enter the science mark:94
+Enter the computer mark:92
+sum of all five subject marks  447
+---------------------------------------------------------------------------------------------
+
+2) Find the square and cube of a number:
+
+a=10
+square=a*a
+print(square)
+b=6
+cube=b*b*b
+print(cube)
+
+Output
+100
+216
+----------------------------------------------------------------------------------------------
+
+3) Find the area of circle, Rectangle and Triangle:
+
+r=int(input("Enter the number:"))
+l=int(input("Enter the number:"))
+b=int(input("Enter the number:"))
+h=int(input("Enter the number:"))
+c=3.14*r*r
+z=l*b
+y=1/2*b*h
+print(c)
+print(z)
+print(y)
+
+Ouput
+Enter the number:7
+Enter the number:8
+Enter the number:4
+Enter the number:6
+153.86
+32    
+12.0
+----------------------------------------------------------------------------------------------------
+
+4) Swapping two varibales:
+
+a=int (input("Enter the number: ")
+b=int(input("Enter the number: ")
+c=int(input("Enter the number: ")
+temp=a
+a=b
+b=temp
+print("After swap: ",a,b)
+
+Output:
+Enter the number: 52
+Enter the number: 12
+Before swap: 52 12
+After swap: 12 52
+-----------------------------------------------------------------------------------------------------------------
+
+5) Find the last digit of a given number:
+
+a=int(input("Enter the number:"))
+values=a%10
+print("The last digit number: ",values)
+
+output
+Enter the number:678
+The last digit number:  8
+-------------------------------------------------------------------------------------------------------
+
+6) Find the Simple Interest and Total amount:
+
+p=int(input("Enter the number:"))
+n=int(input("Enter the number:"))
+r=int(input("Enter the number:"))
+SI=p*n*r/100
+print("values of simple interest:",SI)
+tot=SI+p
+print("values of total amount:",tot)
+
+Output
+Enter the number:700
+Enter the number:900
+Enter the number:100
+values of simple interest: 630000.0
+values of total amount: 630700.0
+------------------------------------------------------------------------------------------------------

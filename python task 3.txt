@@ -1,0 +1,58 @@
+
+                                                  BESANT TECHNOLOGY - PYTHON (BATCH-373)
+				TASK - 3
+
+NAME             : S.Kiruthika
+DEGREE        : B.Sc CS
+COLLEGE     : Dr. Mgr Government Arts and Science College for Women
+PASSED OUT: 2024
+
+1) Count the digits:
+
+num=int(input("Enter the number:"))
+count=1
+while(num!=1):
+    num=num//10
+    count+=1
+print("The count of the number: ",count)
+
+Output:
+Enter the number:123456789
+The count of the number:  9
+-----------------------------------------------------------------------------------
+
+2) Sum of the digits:
+
+num=int(input("Enter the number: "))
+sum=0
+while(num!=0):
+    a=num%10
+    sum=sum+a
+    num=num//10
+    print("The sum of the given number is: ",sum)
+
+Output:
+Enter the number: 567
+The sum of the given number is:  7 
+The sum of the given number is:  13
+The sum of the given number is:  18
+----------------------------------------------------------------------------
+
+3) Amstrong Number:
+
+a=int(input("Enter the number:"))
+sum=1
+temp=a
+while(temp>1):
+    num=temp%10
+    sum=sum+num**4
+    temp=temp//10
+if(a==sum):
+    print(a,"is a armstrong number")
+else:
+    print(a, "is not a armstrong number")
+
+Output:
+Enter the number:989
+989 is not a armstrong number
+-----------------------------------------------------------------------------

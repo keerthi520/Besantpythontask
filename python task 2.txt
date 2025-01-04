@@ -1,0 +1,150 @@
+
+
+                                                  BESANT TECHNOLOGY - PYTHON (BATCH-373)
+				TASK - 2
+
+NAME             : S.Kiruthika
+DEGREE        : B.Sc Computer Science
+COLLEGE     : Dr. Mgr Government Arts and Science College for Women
+PASSED OUT: 2024
+
+1) Divisible by 5 or not
+
+n=int(input("Enter the number:"))
+if(n%5==0):
+    print("This number is divisible by 5")
+else:
+    print("This number is not divisible by 5")
+
+Output:
+Enter the number:30
+This number is divisible by 5
+-----------------------------------------------------------------------------------
+
+2) Eligible for Vote:
+
+n=int(input("Enter your age:"))
+if(n>=18):
+    print("you are eligible")
+else:
+    print("you are not eligible")
+
+Output:
+Enter your age:21
+you are eligible
+------------------------------------------------------------------------------------
+
+3) Number is equal or not:
+
+n=int(input("Enter the Number1:"))
+m=int(input("Enter the Number2:"))
+if(n==m):
+    print("Two numbers are equal")
+else:
+    print("Two numbers are not equal")
+
+Output:
+Enter the Number1:78
+Enter the Number2:78
+Two numbers are equal
+-----------------------------------------------------------------------------------
+
+4) Large number:
+
+a=int(input("Enter the number1:"))
+b=int(input("Enter the number2:"))
+if(a>b):
+    print("number 1 is big")
+else:
+    print("number 2 is big")
+
+Output:
+Enter the number1:30
+Enter the number2:40
+number 2 is big
+----------------------------------------------------------------------------------------
+
+5) Leap year or not:
+
+a=int(input("Enter the year:"))
+if(a%4==0):
+    print("this is leap year")
+else:
+    print("this is not leap year")
+    
+Output:
+Enter the year:2024
+this is leap year
+------------------------------------------------------------------------------------------
+
+6) Smallest three number:
+
+a=int(input("Enter the number1:"))
+b=int(input("Enter the number2:"))
+c=int(input("Enter the number3:"))
+if(a>b and b>c ):
+    print("Number 1 is large number")
+elif(b>a and b>c):
+    print("Number 2 is large number")
+elif(c>a and c>b):
+    print("Number 3 is large number")
+else:
+    print("All number are equal")
+
+Output
+Enter the number1:45
+Enter the number2:50
+Enter the number3:60
+Number 3 is large number
+-----------------------------------------------------------------------------------------------
+
+7) Number positive, negative or zero
+
+n=int(input("Enter the number:"))
+if(n>0):
+    print("number is positive")
+elif(n<0):
+    print("number is negative")
+else:
+    print("number is zero")
+
+Output
+Enter the number:5
+number is positive
+------------------------------------------------------------------------------------------
+
+8) Find the Grade:
+
+n=(input("Enter your Grade:"))
+if(n == 'a') or (n == 'A'):
+    print("Average")
+elif(n == 'e') or (n == 'E'):
+    print("Excellent")
+elif(n == 'f') or (n == 'F'):
+    print("Fail")
+elif(n == 'g') or (n == 'G'):
+    print("Good")
+elif(n == 'v') or (n == 'V'):
+    print("Very Good")
+else:
+    print("invalid grade")
+
+Output:
+Enter your Grade:M
+invalid grade.
+--------------------------------------------------------------------------------------------
+
+9) Check whether a character is alphabet, digits or special character:
+
+n=(input("Enter the character:"))
+if((n>='a'and n<='z')or(n>='A'and n>='z')):
+    print("This is an alphabet")
+elif(n>='0' and n<='9'):
+    print("This is a digits")
+
+Output:
+Enter the character:3
+This is a digits
+Enter the charcter:h
+This is an alphabet
+---------------------------------------------------------------------------------------------

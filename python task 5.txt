@@ -1,0 +1,42 @@
+
+                                                  BESANT TECHNOLOGY - PYTHON (BATCH-373)
+				TASK - 5
+
+NAME             : S.Kiruthika
+DEGREE        : B.Sc Computer Science
+COLLEGE     : Dr. Mgr Government Arts and Science College for Women
+PASSED OUT: 2024
+
+
+1. Sum of the number:
+
+def sum(n):
+    if n<=1:
+        return n 
+    else:
+        return n+sum(n-1)
+n=int(input("Enter the number:"))
+if n<0:
+    print("Enter a positive number:")
+else:
+    print("the sum is",sum(n))
+
+
+Output:
+Enter the number:10
+the sum is 55
+----------------------------------------------------------------------
+2. Product of the Numbers:
+
+def product(n):
+    if n==1:
+        return 1
+    else:
+        return n*product(n-1)
+n=int(input("Enter the number:"))
+print("product number is", product(n))
+
+Output:
+Enter the number:4
+product number is 24
+------------------------------------------------------------------------
